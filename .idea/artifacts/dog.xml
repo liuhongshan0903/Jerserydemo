@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="dog">
+    <output-path>D:/ahact</output-path>
+    <root id="archive" name="dog.jar">
+      <element id="directory" name="com">
+        <element id="directory" name="liu">
+          <element id="directory" name="jersey">
+            <element id="directory" name="serviceloader">
+              <element id="file-copy" path="$PROJECT_DIR$/target/classes/com/liu/jersey/serviceloader/Dog.class" />
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
